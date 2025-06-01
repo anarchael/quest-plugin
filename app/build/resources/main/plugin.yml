@@ -1,0 +1,9 @@
+main : org.github.anarchael.menuplugin.Main
+name : TestPlugin
+version : 0.0.1
+description : A test plugin.
+api-version: 1.21.5
+author: funecirce
+commands:
+  quest:
+    usage: /<command>
