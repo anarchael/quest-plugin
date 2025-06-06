@@ -6,6 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.github.anarchael.menuplugin.commands.QuestCommand;
+import org.github.anarchael.menuplugin.commands.RequestCommand;
 
 import net.md_5.bungee.api.ChatColor;
 
@@ -27,6 +28,7 @@ public class Main extends JavaPlugin implements Listener {
 
         System.out.println("Plugin démarré");
         getServer().getConsoleSender().sendMessage(String.format("Merci d'utiliser le plugin %s !", getName()));
+        getCommand("request").setExecutor(new RequestCommand(this));
         getCommand("quest").setExecutor(new QuestCommand(this));
     }
 }
