@@ -1,9 +1,11 @@
 main : org.github.anarchael.menuplugin.Main
-name : TestPlugin
+name : Re-Quest
 version : 0.0.1
-description : A test plugin.
+description : A simple plugin to add a quest and request system.
 api-version: 1.21.5
 author: funecirce
 commands:
+  request:
+    usage: /<command>
   quest:
     usage: /<command>
