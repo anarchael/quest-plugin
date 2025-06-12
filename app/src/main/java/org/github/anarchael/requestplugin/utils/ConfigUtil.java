@@ -1,10 +1,10 @@
-package org.github.anarchael.menuplugin.utils;
+package org.github.anarchael.requestplugin.utils;
 
 import java.io.File;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.github.anarchael.menuplugin.Main;
+import org.github.anarchael.requestplugin.Main;
 
 public class ConfigUtil {
 

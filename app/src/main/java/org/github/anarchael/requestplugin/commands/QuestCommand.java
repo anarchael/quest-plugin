@@ -1,4 +1,4 @@
-package org.github.anarchael.menuplugin.commands;
+package org.github.anarchael.requestplugin.commands;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -18,9 +18,9 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.github.anarchael.menuplugin.Main;
-import org.github.anarchael.menuplugin.utils.ClassManipulationUtils;
-import org.github.anarchael.menuplugin.utils.ConfigUtil;
+import org.github.anarchael.requestplugin.Main;
+import org.github.anarchael.requestplugin.utils.ClassManipulationUtils;
+import org.github.anarchael.requestplugin.utils.ConfigUtil;
 
 import net.md_5.bungee.api.ChatColor;
 

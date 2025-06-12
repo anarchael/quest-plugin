@@ -1,12 +1,12 @@
-package org.github.anarchael.menuplugin;
+package org.github.anarchael.requestplugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.github.anarchael.menuplugin.commands.QuestCommand;
-import org.github.anarchael.menuplugin.commands.RequestCommand;
+import org.github.anarchael.requestplugin.commands.QuestCommand;
+import org.github.anarchael.requestplugin.commands.RequestCommand;
 
 import net.md_5.bungee.api.ChatColor;
 

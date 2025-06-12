@@ -1,4 +1,4 @@
-package org.github.anarchael.menuplugin.utils;
+package org.github.anarchael.requestplugin.utils;
 
 import java.util.ArrayList;
 import java.util.Collection;
